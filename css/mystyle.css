@@ -1,0 +1,209 @@
+.html {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  padding: 0.2% 1%;
+  background-color: #472d1b;
+}
+.nav .menu {
+  width: 80%;
+}
+.nav .menu .main-menu {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.nav .menu .main-menu .nav-menu-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0% 0%;
+  width: 100%;
+}
+.nav .menu .main-menu .nav-menu-ul li {
+  list-style: none;
+  font-size: 0.9rem;
+  display: inline;
+  margin: 0% 0.7%;
+  font-weight: 500;
+}
+.nav .menu .main-menu .nav-menu-ul li a {
+  text-decoration: none;
+  color: #f58110;
+}
+.nav .menu .main-menu .nav-menu-ul li a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.logo {
+  padding: 0.3% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 90%;
+}
+.logo a {
+  width: 80%;
+  height: 90%;
+}
+.logo a img {
+  width: 100%;
+  height: 90%;
+}
+
+.btn-contact {
+  background-color: #f58110;
+  border: none;
+  color: #472d1b;
+  border-radius: 5px;
+  border-color: #f58110;
+  padding: 0.5rem 5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.btn-contact:hover {
+  background-color: #472d1b;
+  color: #f58110;
+  border-color: #472d1b;
+}
+
+.sec-home {
+  background: url(../assets/img/bg-home2.avif) no-repeat center center;
+  -webkit-background-size: cover cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec-home .title-name {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.mydate-description {
+  display: flex;
+  flex-direction: row;
+  background-color: #dad0c6;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+}
+.mydate-description .mydescription {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  font-size: 1.5rem;
+}
+.mydate-description .mydescription .myname {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.mydate-description .mydescription .myprofesion {
+  font-family: "Times New Roman", Times, serif;
+}
+.mydate-description .mydescription .my-declaration {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+.mydate-description .myyimg {
+  width: 30%;
+  padding: 0.7rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mydate-description .myyimg img {
+  width: 90%;
+  height: auto;
+  border-radius: 50%;
+}
+.mydate-description .myyimg .my-cv {
+  background-color: #472d1b;
+  border: none;
+  color: #f58110;
+  border-radius: 7px;
+  border-color: #472d1b;
+  margin-top: 7%;
+  width: 60%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.mydate-description .myyimg .my-cv:hover {
+  background-color: #f58110;
+  color: #472d1b;
+  border-color: #472d1b;
+}
+.mydate-description .my-skill {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mydate-description .my-skill .kills {
+  align-items: center;
+  width: 90%;
+}
+.mydate-description .my-skill .kills label.progress-label {
+  padding: 5% 0%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.section-my-jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-my-jobs .my-jobs {
+  text-align: center;
+  width: 100%;
+  padding: 2% 1%;
+}
+.section-my-jobs .my-jobs-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.section-my-jobs .flex-container {
+  justify-content: center;
+}
+.section-my-jobs .card {
+  margin: 2%;
+  width: 21rem;
+}
+
+.sec-footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #472d1b;
+  color: #f58110;
+}
+.home-sec {
+  padding: 0;
+}
+
+/*# sourceMappingURL=mystyle.css.map */
